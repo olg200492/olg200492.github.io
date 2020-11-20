@@ -17,7 +17,7 @@
       href="https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@500&family=Russo+One&display=swap"
       rel="stylesheet"
     />
-
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@master/devicon.min.css">
     <link
       rel="stylesheet"
       href="https://use.fontawesome.com/releases/v5.0.7/css/all.css"
@@ -51,20 +51,10 @@
 
           <div class="left-column">
             <img id="profile_pic" src="/images/profilePhoto.jpg" />
-            <h5 style="text-align: center; line-height: 0">
-              Personalize Theme
-            </h5>
 
-            <div id="theme-options-wrapper">
-              <div data-mode="light" id="light-mode" class="theme-dot"></div>
-              <div data-mode="blue" id="blue-mode" class="theme-dot"></div>
-              <div data-mode="green" id="green-mode" class="theme-dot"></div>
-              <div data-mode="purple" id="purple-mode" class="theme-dot"></div>
-            </div>
-
-            <p id="settings-note">
+            <!-- <p id="settings-note">
               *Theme settings will be saved for<br />your next visit
-            </p>
+            </p> -->
           </div>
 
           <div class="right-column">
@@ -72,10 +62,9 @@
               <div id="preview">
                 <div id="corner-tl" class="corner"></div>
                 <div id="corner-tr" class="corner"></div>
-                <h3>What I Do</h3>
+                <h3 class="blink">_What I Do</h3>
                 <p>
-                  I was a lead developer in a past life, now I enjoy teaching
-                  courses.
+                  I'm a software engineer,.
                 </p>
                 <div id="corner-br" class="corner"></div>
                 <div id="corner-bl" class="corner"></div>
@@ -93,8 +82,7 @@
             <h4>More about me</h4>
 
             <p>
-              I build new projects just to tickle my brain and love teaching
-              others how they're made.
+              I build new projects just to tickle my brain.
             </p>
 
             <p>
@@ -108,7 +96,7 @@
 
             <p>
               Fullstack developer with primary focus on Django + React:
-              <a target="_blank" href="resume.pdf">Download Resume</a>
+              <a target="_blank" href="resume.pdf"><b>Download Resume</b></a>
             </p>
 
             <div id="skills">
@@ -120,7 +108,7 @@
               </ul>
 
               <ul>
-                <li>Git</li>
+                <li><img src="https://www.vectorlogo.zone/logos/git-scm/git-scm-icon.svg" alt="git" width="30" height="30"/></li>
                 <li>GitHub</li>
                 <li>HTML/CSS</li>
               </ul>
@@ -134,35 +122,44 @@
       <div class="main-container">
         <h3 style="text-align: center">My projects</h3>
 
-        <div class="post-wrapper">
+        <div class="post-wrapper1">
           <div>
             <div class="post">
-              <img class="thumbnail" src="images/dash.jpg" />
+              <!-- <img class="thumbnail" src="images/dash.jpg" /> -->
               <div class="post-preview">
-                <h6 class="post-title">Laboratory Management System</h6>
+                <h6 class="post-title">The Third Eye | final Project</h6>
                 <p class="post-intro">
-                  Designed built & mantained a the lab managment system for FOI
-                  Laboratories
+                  A software utilazing 2 CNN network to identify a speaker and a keyword
                 </p>
-                <a href="post.html">Read More</a>
+                <p><img src="https://devicons.github.io/devicon/devicon.git/icons/python/python-original.svg" alt="python" width="40" height="40"/>
+                  <img src="https://devicons.github.io/devicon/devicon.git/icons/django/django-original.svg" alt="django" width="40" height="40"/>
+                </p>
+                <a target="_blank" href="https://github.com/thewolfe1/TheThirdEye"><i class="fab fa-github-square fa-2x"></i
+            ></a>
               </div>
             </div>
           </div>
 
           <div>
             <div class="post">
-              <img class="thumbnail" src="images/ecom.jpg" />
+              <!-- <img class="thumbnail" src="images/ecom.jpg" /> -->
               <div class="post-preview">
-                <h6 class="post-title">Online Store - CoursePost Title</h6>
+                <h6 class="post-title">Shape detector | Hackathon Silly Hacks 2020</h6>
                 <p class="post-intro">
-                  Online store with paypal payments intergration and guest user
-                  shopping
+                  A website that detects what shape is in the image between a circle,square,triangle and star.
                 </p>
-                <a href="post.html">Read More</a>
+                <p>
+                  <img src="https://devicons.github.io/devicon/devicon.git/icons/css3/css3-original-wordmark.svg" alt="css3" width="40" height="40"/>
+                  <img src="https://devicons.github.io/devicon/devicon.git/icons/html5/html5-original-wordmark.svg" alt="html5" width="40" height="40"/>
+                  <img src="https://devicons.github.io/devicon/devicon.git/icons/javascript/javascript-original.svg" alt="javascript" width="40" height="40"/>
+                  <img src="https://devicons.github.io/devicon/devicon.git/icons/nodejs/nodejs-original-wordmark.svg" alt="nodejs" width="50" height="50"/>
+                </p>
+                <a target="_blank" href="https://github.com/olg200492/Silly-Hacks-Hackton-2020"><i class="fab fa-github-square fa-2x"></i>
               </div>
             </div>
           </div>
-
+<!--
+  space for third project
           <div>
             <div class="post">
               <img class="thumbnail" src="images/membership site.jpg" />
@@ -176,6 +173,7 @@
               </div>
             </div>
           </div>
+          -->
         </div>
       </div>
     </section>
@@ -188,7 +186,7 @@
         <div class="post-wrapper">
           <div>
             <div class="post">
-              <img class="thumbnail" src="images/dash.jpg" />
+              <!-- <img class="thumbnail" src="images/dash.jpg" /> -->
               <div class="post-preview">
                 <h6 class="post-title">Bubble Sort In JavaScript</h6>
                 <p class="post-intro">
@@ -238,7 +236,7 @@
         <ul class="conact-links">
           <li>
             <a href="https://www.linkedin.com/in/olgalapovsky/" target="_blank"
-              ><i class="fab fa-linkedin"></i
+              ><i class="fab fa-linkedin fa-2x"></i
             ></a>
           </li>
           <li>
@@ -246,7 +244,7 @@
               id="profile-link"
               href="https://github.com/olg200492"
               target="_blank"
-              ><i class="fab fa-github-square"></i
+              ><i class="fab fa-github-square fa-2x"></i
             ></a>
           </li>
         </ul>

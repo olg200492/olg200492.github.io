@@ -44,11 +44,28 @@ p, li, span, label, input, textarea{
 
 a{
 	text-decoration: none;
-	color:#17a2b8;
+	color:#3d1ec5;
+	/* color:#17a2b8; */
 }
 
 ul{
 	list-style: none;
+}
+
+.blink {
+  animation: blink 1s infinite;
+}
+
+@keyframes blink {
+  0% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
 }
 
 h1 { font-size: 56px;}
@@ -313,7 +330,15 @@ h6 { font-size: 16px;}
 
 .post-wrapper{
 	display: grid;
-	grid-template-columns: repeat(auto-fit, 320px);
+	/* grid-template-columns: repeat(auto-fit, 320px); */
+	grid-template-columns: auto auto auto;
+	gap:20px;
+	justify-content: start;
+	padding-bottom: 50px;
+}
+.post-wrapper1{
+	display: grid;
+	grid-template-columns: auto auto auto;
 	gap:20px;
 	justify-content: center;
 	padding-bottom: 50px;
@@ -324,6 +349,7 @@ h6 { font-size: 16px;}
 	-webkit-box-shadow: -2px 7px 21px -9px rgba(0,0,0,0.75);
 	-moz-box-shadow: -2px 7px 21px -9px rgba(0,0,0,0.75);
 	box-shadow: -2px 7px 21px -9px rgba(0,0,0,0.75);
+	
 }
 
 .thumbnail{
